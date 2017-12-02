@@ -1,28 +1,38 @@
-.body {
-  background-color: rgba(109, 104, 100, 0.918)
+.html {
+    background-color: rgba(109, 104, 100, 0.918);
+    font-family: 'Tangerine', cursive;
 }
+.body {
+  background-color: rgba(109, 104, 100, 0.918);
+  
+}
+.container-fluid {
+  height: 100vh;
+}
+
 
 .App {
   text-align: center;
+  font-family: 'Farsan', cursive;
   background-color: rgba(109, 104, 100, 0.918)
 }
 
 .App-logo {
   /* animation: App-logo-spin infinite 10s linear; */
   height: 80px;
+  margin-top: 15px;
+  margin-bottom: -15px
 }
 
 .App-header {
   background-color: rgb(182, 14, 14);
-  height: 150px;
-  padding: 20px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
-}
+  font-size: 40pt;
 
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -30,10 +40,13 @@
 }
 
 
-ul {
+ul, li {
     list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0;
     display: inline-block;
-    width: 200px;
+    
 }
 
 li {
@@ -42,4 +55,9 @@ li {
 
 input[type="button"] {
   width: 200px;
+}
+
+.soundLabel {
+  font-size: 24pt;
+  color: white;
 }

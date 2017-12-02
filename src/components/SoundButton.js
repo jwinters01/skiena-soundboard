@@ -20,10 +20,14 @@ class SoundButton extends React.Component {
 
     render() {
         const { name, filePath } = this.state;
+        let isDisabled = false;
+        if(name.search("None") != -1) {
+            isDisabled = true;
+        }
         return (
             <div>
                 <audio id={name} src={filePath}></audio>
-                <input className="btn btn-danger" type="button" value={name} onClick={() => {this.playSound(name)}}></input>
+                <input className="btn btn-danger" disabled={isDisabled} type="button" value={name} onClick={() => {this.playSound(name)}}></input>
             </div>
         );
     }
