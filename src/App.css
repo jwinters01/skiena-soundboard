@@ -1,14 +1,19 @@
+.body {
+  background-color: rgba(109, 104, 100, 0.918)
+}
+
 .App {
   text-align: center;
+  background-color: rgba(109, 104, 100, 0.918)
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 10s linear;
+  /* animation: App-logo-spin infinite 10s linear; */
   height: 80px;
 }
 
 .App-header {
-  background-color: rgb(134, 8, 8);
+  background-color: rgb(182, 14, 14);
   height: 150px;
   padding: 20px;
   color: white;
@@ -18,11 +23,23 @@
   font-size: 1.5em;
 }
 
-.App-intro {
-  font-size: large;
-}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+}
+
+li {
+  margin: 5px;
+}
+
+input[type="button"] {
+  width: 200px;
 }
