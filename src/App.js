@@ -22,7 +22,10 @@ import maybeNot from './sounds/maybe_not.m4a';
 import questionsAboutThat from './sounds/questions_about_that.m4a';
 import takeALook from './sounds/take_a_look.m4a';
 import theAnswerIs from './sounds/the_answer_is.m4a';
-
+import why1 from './sounds/why.m4a';
+import inTheBeginning from './sounds/in_the_beginning.m4a';
+import aboutAKing from './sounds/mustve_talked_about_a_king.m4a';
+import intoTheBible from './sounds/turn_me_into_the_bible.m4a';
 const soundBtnList = [
   {
     name: 'Kachunk #1',
@@ -109,20 +112,20 @@ const soundBtnList2 = [
     filePath: theAnswerIs,
   },
   {
-    name: 'None17',
-    filePath: 'http://www.soundjay.com/button/beep-07.wav',
+    name: 'Why..?',
+    filePath: why1,
   },
   {
-    name: 'None18',
-    filePath: 'http://www.soundjay.com/button/beep-07.wav',
+    name: 'In the beginning...',
+    filePath: inTheBeginning,
   },
   {
-    name: 'None19',
-    filePath: 'http://www.soundjay.com/button/beep-07.wav',
+    name: 'About a king',
+    filePath: aboutAKing,
   },
   {
-    name: 'None20',
-    filePath: 'http://www.soundjay.com/button/beep-07.wav',
+    name: 'Turn me into the bible',
+    filePath: intoTheBible,
   },
 
 ];

@@ -21,7 +21,7 @@ class SoundButton extends React.Component {
     render() {
         const { name, filePath } = this.state;
         let isDisabled = false;
-        if(name.search("None") != -1) {
+        if(name.search("None") !== -1) {
             isDisabled = true;
         }
         return (
